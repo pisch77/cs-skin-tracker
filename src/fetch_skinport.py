@@ -1,3 +1,4 @@
+import os
 import requests
 import sqlite3
 from datetime import datetime
@@ -33,6 +34,7 @@ def filter_ak_factory_new(items):
 
 
 def setup_database():
+    os.makedirs("data", exist_ok=True)
     conn = sqlite3.connect("data/prices.db")
     conn.execute("""
         CREATE TABLE IF NOT EXISTS skinport_prices (
