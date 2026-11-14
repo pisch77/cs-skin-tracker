@@ -3,6 +3,8 @@ import sqlite3
 import time
 from datetime import datetime
 
+# Code for Steam API (row 8-97) non functional
+
 SKINS = [
     "AK-47 | Bloodsport (Factory New)",
 ]

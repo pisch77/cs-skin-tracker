@@ -3,7 +3,7 @@
 
 A data pipeline and dashboard that tracks daily prices of AK-47 skins (Factory New) in Counter-Strike 2 and shows which skins have gained or lost the most value over a chosen period.
 
-**Live dashboard:** [link, if you publish it]
+**Live dashboard:** 
 
 ![Dashboard screenshot](docs/dashboard.png)
 
